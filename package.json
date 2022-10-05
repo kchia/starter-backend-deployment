@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "api/index.js",
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
     "dev": "nodemon api/index.js",
     "knex": "knex",
